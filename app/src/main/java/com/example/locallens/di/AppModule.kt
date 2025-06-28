@@ -77,7 +77,7 @@ object AppModule {
         placesClient: PlacesClient,
         retrofit: Retrofit
     ): GoogleMapsRepository {
-        val googleApiKey = "AIzaSyAaY1wNs1qnEVybcRY_d1FTgCS2tYn99U8"
+        val googleApiKey = ""
         return GoogleMapsRepository(
             placesClient, retrofit, googleApiKey,
             geminiApiService = TODO()
